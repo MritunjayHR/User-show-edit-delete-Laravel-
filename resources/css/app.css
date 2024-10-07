@@ -1,0 +1,47 @@
+.styled-button {
+    width: 100%;
+    height: 4vw;
+    background-color: #f39c12; /* Vibrant orange */
+    color: white;
+    border: 2px solid transparent;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+
+.styled-button img {
+    margin-right: 10px;
+    margin-top: 10px; /* Add spacing between icon and text */
+}
+
+.styled-button:hover {
+    background-color: #e67e22;
+    border: 2px solid #e67e22;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.styled-button:focus {
+    border: 2px solid #e67e22;
+}
+
+.styled-button:active {
+    background-color: #d35400;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(1px);
+}
+
+.title_information_2_grn_tpl {
+    vertical-align: middle;
+    font-weight: bolder;
+    margin-left: 5px; /* Ensure proper spacing between icon and text */
+}
